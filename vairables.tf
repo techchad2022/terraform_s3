@@ -7,6 +7,9 @@ variable "profile" {
 variable "region" {
   type = string
 }
+variable "region1" {
+  type = string
+}
 variable "bucket_name" {
   type = string
 }
