@@ -16,3 +16,7 @@ variable "acl_name" {
 variable "tags" {
   type = map(string)
 }
+variable "versioning" {
+  type = bool
+  default = false
+}

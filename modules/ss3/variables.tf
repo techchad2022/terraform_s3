@@ -13,3 +13,10 @@ variable "bucket_name" {
 variable "acl_name" {
   type = string
 }
+variable "tags" {
+  type = map(string)
+}
+variable "versioning" {
+  type = bool
+  default = false
+}

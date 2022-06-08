@@ -5,4 +5,5 @@ module "s3_bucket" {
   bucket_name = var.bucket_name
   acl_name = var.acl_name
   tags = var.tags
+  versioning = var.versioning
 }
