@@ -13,3 +13,6 @@ variable "bucket_name" {
 variable "acl_name" {
   type = string
 }
+variable "tags" {
+  type = map(string)
+}
