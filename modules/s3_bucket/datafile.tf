@@ -10,3 +10,5 @@ data "template_file" "aws_iam_policy_json" {
     }
 
 }
+data "aws_canonical_user_id" "current_user" {}
+

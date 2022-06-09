@@ -1,4 +1,3 @@
-source = "./modules/s3_bucket"
 profile = "default"
 region = "us-east-1"
 region1 = "us-west-2"
